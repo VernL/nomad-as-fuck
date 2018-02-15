@@ -4,23 +4,23 @@ layout: null
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <channel>
-        <id>https://nomadasfuck.com/</id>
+        <id>{{ site.production_url }}</id>
         <title>{{ site.title | xml_escape }}</title>
         <description>{{ site.tagline | xml_escape }}</description>
-        <updated>{{ site.time | date_to_rfc822 }}</updated>
+        <pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
         <link rel="self" href="/feed" />
         <author>
             <name>{{ site.author.name | xml_escape }}</name>
             <email>{{ site.author.email | xml_escape }}</email>
             <uri>https://nomadasfuck.com/</uri>
         </author>
-        <generator>Jekyll v3.3.0</generator>
+        <generator>Jekyll v{{ jekyll.version }}</generator>
         {% for post in site.posts limit:1 %}
         <item>
             <title>{{ post.title | xml_escape }}</title>
-            <link>https://nomadasfuck.com/{{ post.url }}</link>
+            <link>{{ site.production_url }}{{ post.url }}</link>
             <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
-            <media:content url="https://nomadasfuck.com/assets/img/posts/{{post.image}}" medium="image" width="500" height="500" />
+            <media:content url="{{ site.production_url }}/assets/img/posts/{{post.image}}" medium="image" width="500" height="500" />
             {% endfor %}
         </item>
     </channel>

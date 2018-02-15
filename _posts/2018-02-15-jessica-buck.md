@@ -5,7 +5,7 @@ link: "http://www.jlbwork.me"
 instagram: "jbuckk"
 image: "buck.jpg"
 category: post
-date: 2017-12-15-16-54
+date: 2018-02-15-11-55-54
 ---
 {% include JB/setup %}
 

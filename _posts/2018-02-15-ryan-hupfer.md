@@ -15,7 +15,7 @@ date: 2018-02-15-11-45
 
 I’m from the good ol’ Midwest — a super small town in Indiana to be exact, which is very well known as a “fly-over” state. I mean, I get it, it’s not the most exciting place in the world, but Hoosiers (people from Indiana) are some of the best the U.S. has to offer. If you’ve ever met anyone from Indiana you know what I’m sayin’ - just good people, you know? 
 
-<img data-src="{{ BASE_PATH }}/assets/img/posts/ryan/running in hometown.png" alt="running in hometown" class="inner-post-image lazyload" />
+<img src="{{ site.url }}/assets/img/posts/ryan/running in hometown.png" alt="running in hometown" class="inner-post-image lazyload" />
 
 ### What do you do?
 

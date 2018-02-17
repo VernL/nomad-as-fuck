@@ -16,6 +16,7 @@ sass:
 #
 title : Nomad As Fuck
 tagline: Showcasing the most badass nomads on the planet.
+url: https://nomadasfuck.com
 author :
   name : Nomad As Fuck
   email : richard@nomadasfuck.com
@@ -40,7 +41,6 @@ collections:
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
 production_url : https://nomadasfuck.com
-url: http://peaceful-liskov-eefe47.netlify.com
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
